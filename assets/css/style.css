@@ -1,0 +1,157 @@
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    letter-spacing: 1px;
+    height: 100vh;
+    background: url(../images/maxresdefault.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(56, 52, 52);
+}
+
+.main{
+    padding-top: 30px;
+}
+
+.contnet01{
+    /* background: url(../images/spidermanlogo.png) no-repeat;
+    background-position: center;
+    background-size: 700px; 
+    margin-bottom: 40px; */
+    padding: 100px 100px 10px 100px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.contnet02{
+    margin-bottom: 40px;
+    padding: 70px 100px 70px 100px;
+    background-color: rgb(27, 27, 27);
+    border-top-style: none;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.contnet03{
+    padding: 100px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    font-style: italic;
+    -webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: rgb(144, 23, 23);
+    color: rgb(223, 175, 19);
+}
+
+.title01{
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: italic;
+    -webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: rgb(144, 23, 23);
+    color: rgb(223, 175, 19);
+}
+
+span{
+    color: rgb(223, 175, 19);
+    font-size: 2.7rem;
+}
+
+.title02{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #cfcfcf;
+}
+
+.title{
+    position: relative;
+    top: 40px;
+    font-size: .9rem;
+    font-weight: 300;
+    color: #cfcfcf;
+    border-radius: 10px;
+    padding-top: 15px;
+    margin: 1px;
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+    z-index: 99;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: #cfcfcf;
+}
+
+.info{
+    line-height: 30px;
+}
+
+.info_list{
+    color: rgb(223, 175, 19);
+}
+
+.info_text{
+    font-weight: 300;
+    color: #cfcfcf;
+}
+
+.event01{
+    padding: 50px 0px;
+}
+
+.btn{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    padding: 10px 70px;
+}
+
+.sec02{
+    position: relative;
+    top: -250px;
+}
+
+@media (max-width:375px){
+    .contnet01{
+        padding: 50px;
+    }
+
+    .title{
+        font-size: .7rem;
+    }
+
+    .title01{
+        font-size: 1.5rem;
+    }
+
+    .title02{
+        font-size: .7rem;
+    }
+
+    span{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    
+}
