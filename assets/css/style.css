@@ -137,8 +137,13 @@ h3{
     .main_logo{
         margin-bottom: 20px;
     }
+
     .contnet01, .contnet02, .contnet03{
         padding: 30px;
+    }
+
+    .event01{
+        padding: 20px 0px;
     }
 
     .title{
@@ -146,21 +151,35 @@ h3{
     }
 
     .title01{
-        font-size: 1.5rem;
+        -webkit-text-stroke-width: 1px;
+        font-size: 1rem;
     }
 
     .title02{
-        font-size: .7rem;
+        font-size: .5rem;
     }
 
     span{
-        font-size: 1.5rem;
+        -webkit-text-stroke-width: 1px;
+        font-size: 1rem;
     }
 
     h1{
-        font-size: 1.5rem;
+        -webkit-text-stroke-width: 1px;
+        font-size: 1rem;
     }
 
+    h3{
+        font-size: 1rem;
+    }
+
+    .info_text p{
+        font-size: 1rem;
+    }
+
+    .event01 img{
+        padding: 0;
+    }
     .sec02{
         position: relative;
         top: -80px;
