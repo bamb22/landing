@@ -130,6 +130,11 @@ h3{
 
 @media (max-width:375px){
 
+    body{
+        background: url(../images/pngwing\ 1.png) rgb(144, 23, 23) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
     .main{
         padding: 20px 0px 0px 0px;
     }
@@ -151,26 +156,30 @@ h3{
     }
 
     .title01{
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: .5px;
         font-size: 1rem;
+        margin-top: 20px;
     }
 
     .title02{
+        margin: 0;
         font-size: .5rem;
     }
 
     span{
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: .5px;
         font-size: 1rem;
     }
 
     h1{
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: .5px;
         font-size: 1rem;
+        margin-top: 20px;
     }
 
     h3{
         font-size: 1rem;
+        margin-bottom: 10px;
     }
 
     .info_text p{
@@ -180,6 +189,13 @@ h3{
     .event01 img{
         padding: 0;
     }
+
+    .btn{
+        font-size: 1rem;
+        margin-top: 20px;
+        padding: 8px 50px;
+    }
+
     .sec02{
         position: relative;
         top: -80px;
