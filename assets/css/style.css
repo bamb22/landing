@@ -129,12 +129,20 @@ h3{
 }
 
 @media (max-width:375px){
-    .contnet01{
-        padding: 50px;
+
+    .main{
+        padding: 20px 0px 0px 0px;
+    }
+
+    .main_logo{
+        margin-bottom: 20px;
+    }
+    .contnet01, .contnet02, .contnet03{
+        padding: 30px;
     }
 
     .title{
-        font-size: .7rem;
+        display: none;
     }
 
     .title01{
@@ -151,6 +159,11 @@ h3{
 
     h1{
         font-size: 1.5rem;
+    }
+
+    .sec02{
+        position: relative;
+        top: -80px;
     }
 
     
