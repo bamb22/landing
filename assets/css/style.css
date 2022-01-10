@@ -131,7 +131,7 @@ h3{
 @media (max-width:375px){
 
     body{
-        background: url(../images/pngwing\ 1.png) rgb(144, 23, 23) no-repeat;
+        background: url(../images/pngwing\ 1.png) rgb(144, 23, 23) center no-repeat;
         background-size: cover;
         background-attachment: fixed;
     }
